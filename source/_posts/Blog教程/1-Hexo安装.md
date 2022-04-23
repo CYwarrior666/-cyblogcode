@@ -2,7 +2,7 @@
 title: Hexo安装 # 代码演示名称
 date: 2022-04-21 22:48:20 # 代码演示创建时间
 description: 详解Hexo的安装步骤 # 描述，用来做主页文章内容节选
-cover: http://rapxsxmwd.hn-bkt.clouddn.com/MD2.png
+cover: "./img/MD2.png"
 categories: Blog
 tags: 
     - Hexo

@@ -2,7 +2,7 @@
 title: PicGo图床 # 代码演示名称
 date: 2022-04-22 22:48:20 # 代码演示创建时间
 description: 详解PicGO配合GitHub、七牛云存储、Typora的图床搭建步骤 # 描述，用来做主页文章内容节选
-cover: http://rapxsxmwd.hn-bkt.clouddn.com/MD3.png
+cover: "./img/MD3.png"
 categories: Blog
 tags: 
     - PicGo
