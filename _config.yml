@@ -120,3 +120,5 @@ search:
   field: post
   format: html
   limit: 10000 #最多搜索多少条
+
+main_css: /css/index.css
