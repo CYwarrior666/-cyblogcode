@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ChenYong's Blog
-subtitle: ""
-description: ""
-keywords:
-author: Chen Yong
-language: zh-Hans
-timezone: ""
+title: ChenYong's Blog #标题
+subtitle: 欢迎访问！ #副标题
+description: 我就是我，不一样的烟火 #个性签名
+keywords: # keywords加参数会导致报错，具体原因不知
+author: Chen Yong #作者
+language: zh-CN #语言
+timezone: Asia/Shanghai #中国的时区
 
 # 运行时读取的URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-## 本地
+## 本地（不修改的话也行，会访问到 http://localhost:4000/cyblog.github.io 的地址）
 ## url: http://example.com
 ## github上
 url: https://cywarrior666.github.io/cyblog.github.io
@@ -101,8 +101,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 ## 主题
-theme: landscape
-## theme: next
+## theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -112,3 +112,11 @@ deploy:
   #branch: master
   repo:
     github: https://github.com/CYwarrior666/cyblog.github.io.git,master
+    gitee: https://gitee.com/chenyong6666/cyblog.gitee.io.git,master
+
+# search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000 #最多搜索多少条
